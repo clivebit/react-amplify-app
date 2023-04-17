@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -9,14 +24,14 @@ export const navLinks = [
     id: "features",
     title: "Features",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  // {
+  //   id: "product",
+  //   title: "Product",
+  // },
+  // {
+  //   id: "clients",
+  //   title: "Clients",
+  // },
 ];
 
 export const features = [
@@ -25,21 +40,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "unlock exclusive rewards: early access, discounts, tokengated offers, and more.",
+      "Create exclusive rewards for your customers: early access, discounts, tokengated offers, and more.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Gamify loyalty",
     content:
-      "Redeem your rewards for early access exclusive discounts, products, and other exciting offers.",
+      "Engage with your favorite brands and unlock unique experiences through online  games and  In Real life challenges. ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Connected Clothing",
     content:
-      "Engage with your favorite brands and unlock unique experiences through online  games and  In Real life challenges.",
+      "Experience the Future of Fashion: Connect with Your Clothes like Never Before with Bind's NFC Technology. Scan the Chip and Collect Loyalty Points to Unlock Exclusive Rewards and Promotions!",
   },
 ];
 
@@ -73,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Compatible Shopify Stores ",
+    value: "4.15 million",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "More Effective Marketing",
+    value: "100%",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "App For All Loyalty",
+    value: "1",
   },
 ];
 
@@ -92,22 +107,22 @@ export const footerLinks = [
   {
     title: "Useful Links",
     links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
+      // {
+      //   name: "Content",
+      //   link: "https://www.hoobank.com/content/",
+      // },
       {
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
+      // {
+      //   name: "Create",
+      //   link: "https://www.hoobank.com/create/",
+      // },
+      // {
+      //   name: "Explore",
+      //   link: "https://www.hoobank.com/explore/",
+      // },
       {
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
